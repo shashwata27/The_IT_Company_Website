@@ -1,32 +1,3 @@
-/* .burgers {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-}
-.burger {
-  box-sizing: border-box;
-  border: 2px solid black;
-  background-color: black;
-  border-radius: 2px;
-  padding: 0;
-  width: 1.5rem;
-  margin: 0.4rem;
-
-  transition: transform 0.3s ease-out;
-}
-
-.burgers:hover .burg1 {
-  transform-origin: 99% 50%;
-  transform: rotateZ(-45deg);
-}
-
-.burgers:hover .burg2 {
-  transform-origin: 99% 50%;
-  transform: rotateZ(45deg);
-} */
-
 * {
   box-sizing: border-box;
 }
