@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+  color: white;
+}
+
 .menu-btn {
   display: flex;
   flex-direction: column;
@@ -37,6 +42,15 @@
   transform: rotate(45deg);
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* footer */
+footer {
+  height: 80vh;
+}
 /* overriding Bootstrap */
 .navbar-toggler:focus {
   box-shadow: none;
@@ -46,4 +60,9 @@
 }
 .navbar-light .navbar-toggler {
   border-color: transparent;
+}
+
+.list-group-item {
+  border: 1px transparent;
+  background-color: black;
 }
