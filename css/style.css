@@ -47,6 +47,56 @@ a {
   color: white;
 }
 
+/* start Page */
+.start-page {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+.start-page-img {
+  position: relative;
+  z-index: -1;
+  bottom: 5rem;
+
+  filter: grayscale(90%);
+}
+
+.start-page > h1,
+.start-page > div {
+  position: relative;
+
+  top: 40vh;
+}
+
+/*    Engg Impact     */
+.engg-impact {
+  background-color: white;
+  color: black;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.engg-impact-content {
+  margin-left: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.engg-impact-img > img {
+  width: 80%;
+  height: 60%;
+
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+  border-radius: 50px;
+}
+
 /* footer */
 footer {
   height: 80vh;
