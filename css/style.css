@@ -98,11 +98,68 @@ a {
 
   border-radius: 50px;
 }
+/* teal-lead */
+.lead {
+  background-color: white;
+  color: black;
+
+  margin: 20px 0;
+  padding-bottom: 3rem;
+}
+
+.lead h2 {
+  margin-left: 15rem;
+  margin-bottom: 3rem;
+  margin-top: 0;
+  padding-top: 3rem;
+}
+
+.lead a {
+  color: black;
+}
+
+.lead img {
+  width: inherit;
+  height: inherit;
+
+  border-radius: 20px;
+}
+
+.lead-person {
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 2300px) and (min-width: 992px) {
+  .lead img {
+    width: 20rem;
+    height: 25rem;
+  }
+}
+
+/*   contact */
+.contact {
+  background-color: white;
+  color: black;
+}
+
+.contact img {
+  margin-bottom: 3rem;
+}
+form {
+  height: 40vh;
+}
+
+.contact input,
+.contact button {
+  flex-basis: 3;
+}
 
 /* footer */
 footer {
+  margin-top: 10rem;
   height: 80vh;
 }
+
 /* overriding Bootstrap */
 .navbar-toggler:focus {
   box-shadow: none;
